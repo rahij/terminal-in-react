@@ -130,7 +130,8 @@ You can have the terminal watch console.log/info function and print out.
 It does so by default.
 
 ```jsx
-<Terminal watchConsoleLogging />
+<Terminal 
+/>
 ```
 
 <p align="center">
@@ -418,7 +419,7 @@ Use
 | **description** | object      |    {} |
 | **commands** | object      |    { clear, help, show, } |
 | **msg** | string      |    - |
-| **watchConsoleLogging** | bool | false |
+| **watchConsoleLogging** | bool | true |
 | **commandPassThrough** | function | null |
 | **promptSymbol** | string | > |
 | **plugins** | array | [ { name: '', load: new Plugin(), commands: {} descriptions: {} } ] |
